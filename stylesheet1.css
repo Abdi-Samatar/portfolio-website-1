@@ -1,0 +1,938 @@
+
+
+body {
+	background-color:rgb(10,25,47);
+	margin:0px;
+	padding:0px;
+
+
+}
+
+.Container {
+	width:100%;
+	height:auto;
+	background-color:background-color:rgb(10,25,47);
+	position:absolute;	
+}
+
+.Nav {
+	padding-bottom:20px;
+	margin-top:none;
+	width:100%;
+	position:fixed;
+	background-color:rgb(10,25,47);
+	opacity:80%;
+	z-index:1;
+}
+
+.Nav nav {
+	border-color:rgb(10,25,47);
+	border-bottom-color:white;
+	border-style:solid;
+	height:80px;
+	width:100%;
+	margin-bottom:0px;
+}
+
+.Nav nav li {
+	color: rgb(100, 255, 218);
+	list-style-type:square;
+	text-decoration:none;
+	text-align:right;
+	padding-left:10px;
+	padding-right:20px;
+	position:relative;
+	float:right;
+}
+
+.Nav nav li a {
+	list-style:none;
+	text-decoration:none;
+	color: white;
+	font-family:monospace;
+	padding-right:10px;
+}
+
+.Intro {
+	position:relative;
+	background-color: rgb(10,25,47);
+	border-style:solid;
+	border-color:rgb(10,25,47);
+	width:900px;
+	margin-left:200px;
+	margin-right:100px;
+	margin-top:200px;
+	
+}
+
+.Intro p {
+	color:rgb(100, 255, 218);
+	font-size:16px;
+	font-weight:400px;
+	font-family:monospace;
+	line-height:20.88px;
+	padding-top:15px;
+	padding-left:15px;
+
+
+}
+
+.Intro h1 {
+	color:rgb(204, 214, 246);
+	font-size:80px;
+	font-weight:88px;
+	line-height:88px;
+	font-family:Arial;
+	padding-top:0px;
+	padding-left:15px;
+	padding-bottom:15px;
+
+}
+
+.Intro h1:hover {
+	color:rgb(100, 255, 218);
+}
+
+.Intro a {
+	text-decoration:none;
+	color:white;
+}
+
+.Intro h3 {
+	font-family:Arial;
+	font-size:20px;
+	line-height:26px;
+	font-weight:400px;
+	color:rgb(136, 146, 176);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+.About {
+	position:relative;
+	background-color:rgb(10,25,47);
+	border-style:solid;
+	border-color:rgb(10,25,47);
+	margin-left:200px;
+	margin-right:100px;
+	width:900px;
+	
+}
+.About h4 {
+	font-family:Arial;
+	font-size:32px;
+	line-height:41.6px;
+	font-weight:600px;
+	color: rgb(204, 214, 246);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+.About h3 {
+	font-family:Arial;
+	font-size:16px;
+	line-height:26px;
+	font-weight:400px;
+	color:rgb(136, 146, 176);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+.About li {
+	list-style:square;
+	color:rgb(100, 255, 218);
+	font-family:monospace;
+	font-size:16px;
+}
+
+.About img {
+	display:inline-block;
+	float:right;
+	margin-left:20px;
+	border-style:round;
+	border-radius:120px;
+	transition-property:all;
+	transition-duration:2s;
+
+
+}
+
+.About img:hover {
+	border-color:red;
+	background-color:red;
+
+}
+
+
+.About img:hover {
+	transform:scale(1.5);
+
+}
+
+.About a {
+	text-decoration:none;
+	color:rgb(204, 214, 246);
+}
+
+
+.Contactbutton {
+	position:relative;
+	background-color:none;
+	border-style:solid;
+	border-color:rgb(10,25,47);
+	margin-left:200px;
+	margin-right:100px;
+	width:900px;
+	}
+
+.Contactbutton p {
+	font-family:monospace;
+	border-color:rgb(94,240,206);
+	border-style:solid;	
+	border-radius:3px;
+	width:150px;
+	margin-left:15px;
+	padding-left:15px;
+	padding-bottom:20px;
+	padding-top:20px;
+	color:rgb(94,240,206);
+	font-size:16px;
+
+}
+
+.Contactbutton p:hover {
+	border-color:white;
+	animation-duration:0.2ms;
+	
+}
+
+
+
+.Contactbutton h4 {
+	font-family:Arial;
+	font-size:32px;
+	line-height:41.6px;
+	font-weight:600px;
+	color: rgb(204, 214, 246);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+.Contactbutton a {
+	text-decoration-style:none;
+	text-decoration:none;
+	color:rgb(94,240,206);
+}
+
+
+.Work-experience {
+	position:relative;
+	background-color:rgb(10,25,47);
+	border-style:solid;
+	border-color:rgb(10,25,47);
+	margin-left:200px;
+	margin-right:10px;
+	width:900px;
+}
+
+.Work-experience li {
+	list-style:square;
+	color:rgb(100, 255, 218);
+	font-family:monospace;
+	font-size:16px;
+}
+
+
+.Work-experience h4 {
+	font-family:Arial;
+	font-size:32px;
+	line-height:41.6px;
+	font-weight:600px;
+	color: rgb(204, 214, 246);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+.Work-experience a {
+	text-decoration:none;
+	color:rgb(204, 214, 246);
+}
+
+.Work-experience h3 {
+	font-family:Arial;
+	font-size:16px;
+	line-height:26px;
+	font-weight:400px;
+	color:rgb(136, 146, 176);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+
+.Case-Studies {
+	display:flex;
+	align-content:center;
+	margin-left:180px;
+}
+
+.Case-Studies ul li {
+	text-decoration-color:none;
+	list-style:none;
+	color:white;
+	text-decoration-style:none;
+	text-decoration:none;
+}
+
+.Case-Studies li {
+	text-decoration:none;
+	text-decoration-style:none;
+	float:right;
+	padding-left:2px;
+	padding-right:25px;
+}
+
+.Case-Studies li img {
+	border-radius:50px;
+
+}
+
+
+
+.Contact-me {
+	position:relative;
+	background-color:rgb(10,25,47);
+	border-style:solid;
+	border-color:rgb(10,25,47);
+	margin-left:200px;
+	margin-right:10px;
+	width:900px;
+}
+
+.Contact-me h4 {
+	font-family:Arial;
+	font-size:32px;
+	line-height:41.6px;
+	font-weight:600px;
+	color: rgb(204, 214, 246);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+.Contact-me h3 {
+	font-family:Arial;
+	font-size:16px;
+	line-height:26px;
+	font-weight:400px;
+	color:rgb(136, 146, 176);
+	padding-left:15px;
+	padding-bottom:15px;
+}
+
+
+.Contact-me a {
+	text-decoration:none;
+	color:rgb(204, 214, 246);
+}
+
+
+.Contact {
+	position:absolute;
+	background-color:rgb(10,25,47);
+	border-style:solid;
+	border-color: white;
+	border-radius:8px;
+	width:500px;
+	height:450px;
+	margin-bottom:60px;
+	margin-top:20px;
+
+
+}
+.Contact {
+	margin-left:210px;
+
+}
+
+
+.Contact input {
+	border-color:rgb(100, 255, 218);
+	background-color:none;
+	padding: 5px 5px 5px 30px;
+	display:list-item;
+	margin-top:10px;
+	margin-bottom:10px;
+	margin-left:30px;
+
+}
+
+
+.Contact input#query {
+	color:blue;
+	border-color:red;
+}
+
+
+.Contact label {
+	margin-left:30px;
+	margin-top:40px;
+	font-family:monospace;	
+	font-size:15px;
+	color:rgb(100, 255, 218);
+}
+
+
+
+.Footer {
+	position:absolute;
+	background-color:rgb(2,12,27);
+	border-style:solid;
+	border-color: rgb(10,25,47);
+	margin-top:620px;
+	width:100%;
+
+
+}
+
+.Footer p {
+	color:rgb(100,255,218);
+	padding-left:50%;
+	font-family:monospace;
+}
+
+
+@media only screen and (min-width:375 max-width:640px) {
+	.Container {
+		max-width: 640px;
+	}
+	
+
+	.Nav nav li {
+			color: rgb(100, 255, 218);
+			list-style-type:decimal;
+			order:initial;
+			text-decoration:none;
+			text-align:none;
+			float:right;
+			padding-left:10px;
+			padding-right:15px;
+			padding-top:20px;
+		}
+
+	.Intro {
+			position:relative;
+			background-color: rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			width:400px;
+			margin-left:10px;
+			margin-right:10px;
+		}
+
+		.Intro h1 {
+			color:rgb(204, 214, 246);
+			font-size:60px;
+			font-weight:88px;
+			line-height:88px;
+			font-family:Arial;
+			padding-top:0px;
+			padding-left:15px;
+			padding-bottom:15px;
+		}
+
+		.Intro h3 {
+			font-family:Arial;
+			font-size:16px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:15px;
+		}
+
+		.About {
+			position:relative;
+			background-color:rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			margin-left:20px;
+			margin-right:10px;
+			width:400px;
+	
+}
+		.About h4 {
+			font-family:Arial;
+			font-size:32px;
+			line-height:41.6px;
+			font-weight:600px;
+			color: rgb(204, 214, 246);
+			padding-left:15px;
+			padding-bottom:15px;
+}
+
+		.About h3 {
+			font-family:Arial;
+			font-size:16px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:15px;
+}
+
+		.About li {
+			list-style:square;
+			color:rgb(100, 255, 218);
+			font-family:monospace;
+			font-size:16px;
+}
+
+		.About img {
+			display:inline-block;
+			float:right;
+			margin-left:20px;
+			border-style:round;
+			border-radius:120px;
+			margin-bottom:10px;
+			margin-right:90px;
+}
+
+		.Contactbutton {
+			
+			margin-left:20px;
+			margin-right:100px;
+			width:650px;
+	}
+
+		.Contactbutton p {
+			font-size:20px;
+		}
+
+.Work-experience {
+	position:relative;
+	background-color: rgb(10,25,47);
+	border-style:solid;
+	border-color:rgb(10,25,47);
+	margin-left:20px;
+	margin-right:100px;
+	width:400px;
+}
+
+
+
+.Contact {
+	position:relative;
+	background-color:none;
+	border-style:solid;
+	border-color: white;
+	border-radius:8px;
+	width:400px;
+	height:750px;
+	margin-bottom:60px;
+	margin-top:20px;
+	margin-left:10px;
+
+
+}
+
+
+.Footer {
+	position:relative;
+	background-color:rgb(2,12,27);
+	border-style:solid;
+	border-color: rgb(10,25,47);
+	margin-top:20px;
+	width:650px;
+
+
+}
+
+.Footer p {
+	color:rgb(100,255,218);
+	padding-left:30%;
+	font-family:monospace;
+}
+}
+
+@media only screen and (max-width:731px) {
+	.Container {
+		max-width: 731px;
+	}
+	
+
+	.Nav nav li {
+			color: rgb(100, 255, 218);
+			list-style-type:decimal;
+			order:initial;
+			text-decoration:none;
+			text-align:none;
+			float:right;
+			padding-left:10px;
+			padding-right:20px;
+			padding-top:20px;
+		}
+
+
+	.Nav nav li {
+			color: rgb(100, 255, 218);
+			list-style-type:decimal;
+			order:inherit;
+			text-decoration:none;
+			text-align:none;
+			float:right;
+			padding-left:10px;
+			padding-right:25px;
+			padding-top:20px;
+		}
+
+	.Intro {
+			position:relative;
+			background-color: rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			width:400px;
+			margin-left:10px;
+			margin-right:0px;
+		}
+
+		.Intro h1 {
+			color:rgb(204, 214, 246);
+			font-size:65px;
+			font-weight:88px;
+			line-height:88px;
+			font-family:Arial;
+			padding-top:0px;
+			padding-left:15px;
+			padding-bottom:15px;
+		}
+
+		.Intro h3 {
+			font-family:Arial;
+			font-size:14px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:20px;
+			padding-right:20px;
+		}
+
+		.About {
+			position:relative;
+			background-color:rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			margin-left:20px;
+			margin-right:10px;
+			width:400px;
+	
+		}
+		.About h4 {
+			font-family:Arial;
+			font-size:32px;
+			line-height:41.6px;
+			font-weight:600px;
+			color: rgb(204, 214, 246);
+			padding-left:15px;
+			padding-bottom:15px;
+		}
+
+		.About h3 {
+			font-family:Arial;
+			font-size:14px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:15px;
+			padding-right:25px;
+		}
+
+		.About li {
+			list-style:square;
+			color:rgb(100, 255, 218);
+			font-family:monospace;
+			font-size:16px;
+		}
+
+		.About img {
+			display:inline-block;
+			float:right;
+			margin-left:50px;
+			border-style:round;
+			border-radius:120px;
+			margin-bottom:10px;
+			margin-right:90px;
+		}
+
+		.Contactbutton {
+			
+			margin-left:20px;
+			margin-right:100px;
+			width:650px;
+		}
+
+		.Contactbutton p {
+			font-size:20px;
+		}
+
+		.Work-experience {
+			position:relative;
+			background-color: rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			margin-left:20px;
+			margin-right:100px;
+			width:400px;
+		}
+
+		.Work-experience h3 {
+			font-family:Arial;
+			font-size:14px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:15px;
+			padding-right:25px;
+		}
+
+		.Contact {
+			position:relative;
+			background-color:none;
+			border-style:solid;
+			border-color: white;
+			border-radius:8px;
+			width:350px;
+			height:750px;
+			margin-bottom:60px;
+			margin-top:20px;
+			margin-left:10px;
+		}
+
+
+		.Footer {
+			position:relative;
+			background-color:rgb(2,12,27);
+			border-style:solid;
+			border-color: rgb(10,25,47);
+			margin-top:20px;
+			width:650px;
+		}
+
+		.Footer p {
+			color:rgb(100,255,218);
+			padding-left:20%;
+			font-family:monospace;
+		}
+}
+
+@media only screen and (max-width:1024px) {
+	.Container {
+		max-width: 1024px;
+	}
+
+	.Nav 		{
+			margin-right:100px;
+			height:50px;
+			background-color: rgb(0,26,51);
+		}
+
+		.Nav nav li {
+			color: rgb(100, 255, 218);
+			list-style-type:decimal;
+			order:initial;
+			text-decoration:none;
+			text-align:none;
+			float:right;
+			padding-left:10px;
+			padding-right:20px;
+			padding-top:20px;
+		}
+
+	.Intro {
+			position:relative;
+			background-color: rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			width:500px;
+			margin-left:20px;
+			margin-right:0px;
+		}
+
+		.Intro h1 {
+			color:rgb(204, 214, 246);
+			font-size:88px;
+			font-weight:88px;
+			line-height:88px;
+			font-family:Arial;
+			padding-top:0px;
+			padding-left:15px;
+			padding-bottom:15px;
+		}
+
+		.Intro h3 {
+			font-family:Arial;
+			font-size:20px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:20px;
+			padding-right:
+		}
+
+
+		.About {
+			position:relative;
+			background-color:rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			margin-left:20px;
+			margin-right:10px;
+			width:550px;
+	
+		}
+		.About h4 {
+			font-family:Arial;
+			font-size:32px;
+			line-height:41.6px;
+			font-weight:600px;
+			color: rgb(204, 214, 246);
+			padding-left:15px;
+			padding-bottom:15px;
+		}
+
+		.About h3 {
+			font-family:Arial;
+			font-size:20px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:15px;
+			padding-right:25px;
+		}
+
+		.About li {
+			list-style:square;
+			color:rgb(100, 255, 218);
+			font-family:monospace;
+			font-size:20px;
+		}
+
+		.About img {
+			margin-left:20px;
+			margin-right:5px;
+		}
+
+
+		.Contactbutton {
+			
+			margin-left:20px;
+			margin-right:100px;
+			width:650px;
+		}
+
+		.Contactbutton p {
+			font-size:18px;
+		}
+
+		.Work-experience {
+			position:relative;
+			background-color: rgb(10,25,47);
+			border-style:solid;
+			border-color:rgb(10,25,47);
+			margin-left:20px;
+			margin-right:100px;
+			width:550px;
+		}
+
+		.Work-experience h3 {
+			font-family:Arial;
+			font-size:20px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-bottom:15px;
+			padding-right:25px;
+		}
+
+		.Work-experience li {
+			list-style:square;
+			color:rgb(100, 255, 218);
+			font-family:monospace;
+			font-size:20px;
+}
+
+		.Contact {
+			position:relative;
+			background-color:none;
+			border-style:solid;
+			border-color: white;
+			border-radius:8px;
+			width:450px;
+			height:750px;
+			margin-left:20px;
+			margin-bottom:60px;
+			margin-top:20px;
+		}
+
+
+		.Footer {
+			position:relative;
+			background-color:rgb(2,12,27);
+			border-style:solid;
+			border-color: rgb(10,25,47);
+			margin-top:20px;
+			width:650px;
+		}
+
+		.Footer p {
+			font-size:20px;
+		}
+
+
+		.Contact h3 {
+			font-family:Arial;
+			font-size:20px;
+			line-height:26px;
+			font-weight:400px;
+			color:rgb(136, 146, 176);
+			padding-left:15px;
+			padding-right:10px;
+			padding-bottom:15px;
+}
+
+
+		.Contact input {
+			border-color:rgb(100, 255, 218);
+			background-color:none;
+			padding: 10px 50px 10px 30px;
+			display:list-item;
+			margin-top:10px;
+			margin-bottom:10px;
+			margin-left:30px;
+
+
+}
+
+
+.Contact label {
+		margin-left:30px;
+		margin-top:20px;
+		font-family:monospace;	
+		font-size:20px;
+		color:rgb(100, 255, 218);
+
+	}
+	
+		
+.Footer p {
+			color:rgb(100,255,218);
+			padding-left:20%;
+			font-family:monospace;
+		}
+	}
+
+
